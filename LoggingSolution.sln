@@ -96,6 +96,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogCurrentFileNameSampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpectreConsoleLibrary", "SpectreConsoleLibrary\SpectreConsoleLibrary.csproj", "{7BD0869D-E986-E050-906F-38F3668DFD88}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Read from json", "Read from json", "{32C4A9A5-47F9-D2CA-BC06-49B6DC64B4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerilogReadSettingsFromJson", "SerilogReadSettingsFromJson\SerilogReadSettingsFromJson.csproj", "{5ABAE656-66F9-408E-B2DC-F2BD585172C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -238,6 +242,10 @@ Global
 		{7BD0869D-E986-E050-906F-38F3668DFD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BD0869D-E986-E050-906F-38F3668DFD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BD0869D-E986-E050-906F-38F3668DFD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABAE656-66F9-408E-B2DC-F2BD585172C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABAE656-66F9-408E-B2DC-F2BD585172C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABAE656-66F9-408E-B2DC-F2BD585172C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABAE656-66F9-408E-B2DC-F2BD585172C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -280,6 +288,7 @@ Global
 		{EDA9515F-EACD-2728-AC79-66F6C03AE8A9} = {3D6043FE-BBF6-40C5-B5F0-4DFB2FDA9CA9}
 		{67EE91A2-C12C-49C2-8DB0-FA7DAB980709} = {F9B6F1A8-5124-4561-9DEC-6D9A36A89A72}
 		{7BD0869D-E986-E050-906F-38F3668DFD88} = {5ADD02E8-12CB-4191-8EC1-C0FB0750BA6B}
+		{5ABAE656-66F9-408E-B2DC-F2BD585172C8} = {32C4A9A5-47F9-D2CA-BC06-49B6DC64B4FB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20C28C71-F936-4E8F-AA46-D277BEE96A65}
